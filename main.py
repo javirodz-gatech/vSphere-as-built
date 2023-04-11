@@ -60,9 +60,9 @@ def main():
     # Connect to vSphere
     try:
         si = SmartConnect(
-            host="vs-vcenter-01.hanbury.network",
+            host="vcenter FQDN",
             user="administrator@vsphere.local",
-            pwd="P@ssw0rd!@2022",
+            pwd="password",
             sslContext=context
         )
     except Exception as e:
